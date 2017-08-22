@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 
     @IBAction func showLoaderAction(_ sender: UIButton) {
         
-        CommonFunction.sharedInstance.showLoading(color: UIColor.red)
+        CommonFunction.sharedInstance.showLoading(color: UIColor.clear)
     }
 
     
